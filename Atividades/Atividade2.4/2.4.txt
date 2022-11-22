@@ -1,0 +1,4 @@
+Utilizar o refinamento sucessivo para produzir um algoritmo que irá receber um número inteiro e determinar as características a seguir:
+- se o número é par ou ímpar;
+
+- se é positivo, negativo ou nulo.

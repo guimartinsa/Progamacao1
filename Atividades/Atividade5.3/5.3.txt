@@ -1,0 +1,7 @@
+1.6 Crie um programa em linguagem C que receba duas palavras de cinco letras.
+O programa deve calcular quantas letras idênticas na mesma posição existem entre as duas palavras. 
+EX: P = "Corda" e Q = "carne", neste caso o programa deve retornar que existem 2 coincidências,
+sendo elas a letra ’c’ na primeira posição e a letra ’r’ na terceira posição.
+Ao final, o programa deve imprimir quantas coincidências foram encontradas entre as duas palavras recebidas.
+Considere letras maiúsculas e minúsculas como iguais entre si, por exemplo ’a’ e ’A’ devem ser consideradas idênticas,
+assim como ’b’ e ’B’, etc.

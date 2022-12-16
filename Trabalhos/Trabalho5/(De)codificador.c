@@ -20,12 +20,15 @@ int main(){
     int i , j , cond=0 , tam=0 , cont=0 , codificada[60] ;
     char frase[60] , chave[60] , decodificada[60];
     do{
+        printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
         printf("Oque deseja fazer?\n[1]Codificar\n[2]Decodificar\n[3]Encerrar\n");
+        printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
         scanf("%d",&cond);
         if(cond==1){
-            printf("Digite a frase que deseja codificar:");
+            printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
+            printf("Digite a frase que deseja codificar de ate 60 caracteres:");
             scanf("%s",frase);
-            printf("Digite a chave:");
+            printf("Digite a chave de ate 60 caracteres:");
             scanf("%s",chave);
             
             for(i=0 ; frase[i]!='\0' ; i++){
@@ -45,7 +48,9 @@ int main(){
             decodificada[j]='\0';
             printf("Frase decodificada: %s \n", decodificada);
         }else if(cond==3){
-            printf("Encerrando programa...");
+            printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
+            printf(" Encerrando programa...\n");
+            printf("=-=-=-=-=-=-=-=-=-=-=-=\n");
         }
     }while(cond!=3);
     return 0;
